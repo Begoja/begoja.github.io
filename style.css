@@ -8,12 +8,20 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-image: url(https://avatars.mds.yandex.net/get-pdb/27625/1895e991-0ee8-4773-b097-eec50a63b8f8/s1200);
   background-repeat: no-repeat;
-  background-size: cover;0
+  background-size: cover;
 }
 h1 {
   color: aliceblue;
   font-size: 2em;
   width: 15em;
+}
+img {
+  width: 14em;
+  height: 7em;
+  opacity: 0.7;
+  border-radius: 15px;
+  position: relative;
+  top: 40%
 }
 .naslov {
   border: 2px solid whitesmoke;
@@ -29,4 +37,11 @@ h1 {
   position: absolute;
   top: 40%;
   left: 50%;
+}
+.container {
+  display: flex;
+  align-content: center;
+  position: relative;
+  top: 20%;
+  left: 32%;
 }
